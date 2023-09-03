@@ -1,0 +1,6 @@
+# Agriculture Copilot
+* Agriculture Copilot will be an AI-driven learning platform explicitly designed for students and researchers in agriculture science. The mission is to deliver a comprehensive, interactive, and tailor-made learning experience that paves a smoother path to success.
+
+* In the academic landscape, agriculture science students often find themselves in the minority. Compared to mainstream fields such as computer science, the disparity in resources and peer support can sometimes dampen our enthusiasm and curiosity. In the age of Large Language Models (LLMs), I envisioned a solution to bridge this gap: an AI-powered companion dedicated solely to agricultural science. Thus, Agriculture Copilot was born.
+
+* As the very first component, it's the **Agri Paper Chat** tool. While there are numerous "ChatPDF"-style tools available, what sets the Agri Paper Chat apart is its customization. It tailored questions and prompts meticulously designed for textbooks, research papers, and the agricultural field. This unique design not only guides users to frame more precise questions but also ensures answers are delivered in an easily comprehensible manner.
