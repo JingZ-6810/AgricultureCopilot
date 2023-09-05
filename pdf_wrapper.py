@@ -7,11 +7,18 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class PDFWrapper:
     """
-    Wrapper class for loading PDF files
+    Wrapper class for PDF files
     """
 
     def __init__(self, reader):
+        self.pageNum = len(reader.pages)
         self.pages = {i: page.extract_text() for i, page in enumerate(reader.pages)}
+
+    def get_num_pages(self):
+        return self.pageNum
+
+    def get_page(self, page_num):
+        return self.pages.get(page_num)
     
     def get_all_text(self):
         self.all_text = ""
