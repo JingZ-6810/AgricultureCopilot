@@ -1,15 +1,19 @@
+import time
+
 import openai
 
 
 class ChatGPT:
     """
+    Wrapper class for ChatGPT APIs
     """
-    api_key = ""
 
-    def init(self,api_key):
+    @staticmethod
+    def init(api_key):
         openai.api_key = api_key
 
-    def ask(self,prompt, role=None, max_tokens=None):
+    @staticmethod
+    def ask(prompt, role=None, max_tokens=None):
         message = [{"role": "user", "content": prompt}]
         if role:
             message.append(
