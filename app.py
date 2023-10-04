@@ -1,7 +1,7 @@
 import streamlit as st
-from pdf_wrapper import PDFWrapper
-from digest_paper import PaperDigest
-from llm_wrapper import LLMWrapper
+# from pdf_wrapper import PDFWrapper
+# from digest_paper import PaperDigest
+# from llm_wrapper import LLMWrapper
 import os
 # from pdfminer.high_level import extract_text
 # Assuming the necessary imports for your question answering system
