@@ -1,5 +1,5 @@
 import io
-import PyPDF2
+# import PyPDF2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/recursive_text_splitter
